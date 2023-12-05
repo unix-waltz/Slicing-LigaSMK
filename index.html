@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>LigaSMK</title>
+    <style>
+        body{
+          overflow-x: hidden;  
+        }
+    </style>
+</head>
+<body>
+   
+
+<nav class="bg-white border-gray-200 " style="box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;">
+    <div class="container max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="assets/logo-ligasmk-dark.png" class="h-8" alt="Flowbite Logo" />
+      </a>
+    
+      <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
+          <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:w-auto dark:text-black md:dark:hover:text-black dark:focus:text-black dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Home<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+           </svg></button>
+            
+        </li>
+          <li>
+              <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:w-auto dark:text-black md:dark:hover:text-black dark:focus:text-black dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">About Us <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+             </svg></button>
+              
+          </li>
+          <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:w-auto dark:text-black md:dark:hover:text-black dark:focus:text-black dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Kelas <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+           </svg></button>
+            
+        </li>
+        <li>
+            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 md:w-auto dark:text-black md:dark:hover:text-black dark:focus:text-black dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Blog<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+           </svg></button>
+            
+        </li>
+          <li>
+            <a href="#" class="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="bg-[#f0f3ff] dark:bg-[#f0f3ff]">
+    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+        <div class="mr-auto place-self-center lg:col-span-7">
+            <h1 class="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-black">Bergabunglah dengan jutaan orang dan belajar hal baru</h1>
+            <p class="max-w-2xl mb-6 font-light text-[#9e9fa3] lg:mb-8 md:text-lg lg:text-xl dark:text-[#9e9fa3]">Mengubah Kehidupan, Bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital.</p>
+            <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded bg-[#3a10e5] hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Mulai Belajar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="assets/icon-arrowlong-right.svg" alt="">
+            </a>
+           
+        </div>
+        <div class="md:hidden lg:mt-0 lg:col-span-5 lg:flex">
+            <img src="assets/shape-diagram.png" alt="mockup">
+        </div>                
+    </div>
+</section>
+<div class="h-52 grid grid-cols-3 justify-center content-center w-full bg-[#facb3b]">
+   
+    <div class="flex items-center justify-center">
+        <img src="assets/icon-online-education.svg" alt="">
+        <span class="ml-7">
+            <h1 class="text-lg font-extrabold">Membangun Karir</h1>
+            <h4>Semua Yang Butuh</h4>
+        </span>
+    </div>
+    
+    <div class="flex items-center justify-center">
+        <img src="assets/icon-globe-handphone.svg" alt="">
+        <span  class="ml-7">
+            <h1 class="text-lg font-extrabold">Cari Materi Belajar</h1>
+            <h4>Seberapa Pengetahuan Kamu</h4>
+        </span>
+    </div>
+    
+    <div class="flex items-center justify-center">
+        <img src="assets/icon-online-education-laptop.svg" alt="">
+        <span class="ml-7">
+            <h1 class="text-lg font-extrabold">Kuasai Skill Baru</h1>
+            <h4>Fokus apa yang dibutuhkan</h4>
+        </span>
+    </div>
+                            
+</div>
+<div class="mx-auto w-[80%] mt-14 flex justify-between items-center">
+    <span>
+        <h1 class="text-4xl font-bold">
+            Pembelajaran <span class="underline decoration-[#fdd5a1]">Populer</span>
+        </h1>
+    </span>
+
+    <div class="md:inline-flex hidden" role="group">
+        <button type="button" class="px-4 py-2 text-lg text-[#9e9fa3] font-medium bg-transparent hover:bg-white hover:text-black m-1 hover:border hover:border-black ">
+            JavaScript
+        </button>
+        <button type="button" class="px-4 py-2 text-lg text-[#9e9fa3] font-medium bg-transparent hover:bg-white hover:text-black m-1 hover:border hover:border-black  ">
+            Python
+        </button>
+        <button type="button" class="px-4 py-2 text-lg text-[#9e9fa3] font-medium bg-transparent hover:bg-white hover:text-black m-1 hover:border hover:border-black   ">
+           Web Development
+        </button>
+        <button type="button" class="px-4 py-2 text-lg text-[#9e9fa3] font-medium bg-transparent hover:bg-white hover:text-black m-1 hover:border hover:border-black  ">
+            Art & Design
+        </button>
+        <button type="button" class="px-4 py-2 text-lg text-[#9e9fa3] font-medium bg-transparent hover:bg-white hover:text-black m-1 hover:border hover:border-black   ">
+            Business
+        </button>
+    </div>
+</div>
+
+
+  </div>
+  
+
+<div class="grid grid-cols-2 md:grid-cols-5 gap-4 mx-auto w-[80%] mt-14">
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-orange.png" alt="" />
+                <img class="" src="assets/course-1.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-old-blue.png" alt="" />
+                <img class="" src="assets/course-2.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-pink.png" alt="" />
+                <img class="" src="assets/course-3.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-lightblue.png" alt="" />
+                <img class="" src="assets/course-4.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-lightblue.png" alt="" />
+                <img class="" src="assets/course-5.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-lightblue.png" alt="" />
+                <img class="" src="assets/course-6.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-lightblue.png" alt="" />
+                <img class="" src="assets/course-7.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-old-blue.png" alt="" />
+                <img class="" src="assets/course-8.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-lightblue.png" alt="" />
+                <img class="" src="assets/course-7.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="max-w-sm bg-white border border-gray-200 shadow relative">
+            <a href="#">
+                <img class="absolute top-5 left-5" src="assets/new-orange.png" alt="" />
+                <img class="" src="assets/course-3.png" alt="" />
+            </a>
+            <div class="p-5">
+                <p class="text-[#7d63ee] font-bold">Alen Mask</p>
+                <a href="#">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Why Learn Intermidate SQL for Marketers?</h5>
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-hamburger.svg" alt="">
+                    </span> &nbsp;Beginner
+                </a>
+                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center">
+                    <span>
+                        <img src="assets/icon-copy.svg" alt="">
+                    </span>&nbsp; 3 Lesson
+                </a>
+            </div>
+        </div>
+    </div>      
+<div>
+    </div>
+    </div>
+
+<div class="bg-[#fff0e5] mt-11">
+    <section class="w-[80%] mx-auto py-[60px]">
+       
+<div class="flex items-center gap-4">
+    <img class="sm:w-[240px] sm:h-[240px] sm:rounded-full hidden" src="assets/membership-image.png" alt="">
+    <div class="font-medium text-white">
+        <div class="ml-14 font-bold text-4xl text-black">Dapatkan membership Pro</div>
+        <div class="ml-14 font-bold text-4xl text-black">GRATIS untuk Kelas Kamu</div>
+    </div>
+    <div class="font-medium text-white">
+        <a href="#" class="ml-14 inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded bg-[#3a10e5] hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+           Lihat Semua Kelas
+        </a>
+    </div>
+</div>
+
+    </section>
+</div>
+<div class="mx-auto w-[80%] mt-[150px] flex items-center justify-center">
+    <div class="mx-auto text-4xl font-bold">Kategori <span class="underline decoration-[#fdd5a1]">Populer</span></div>
+</div>
+<br><br><br>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-7 mx-auto w-[60%] md:gap-4 md:w-[90%]">
+    
+    <button type="button"  style="box-shadow: 0 8px 10px -5px rgb(0 0 0 / 0.25);"  class=" py-[20px]  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+       <img src="assets/icon-chemical.svg" alt="">
+       <div class="flex-col">
+          <span class="ml-5 text-lg font-bold">Kimia</span>
+        <span class="ml-4 text-[#9e9fa3] block">2 Kelas</span>
+       </div>
+    </button>
+    <button type="button" style="box-shadow: 0 8px 10px -5px rgb(0 0 0 / 0.25);" class=" py-[20px]  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+        <img src="assets/icon-calendar.svg" alt="">
+        <div class="flex-col">
+           <span class="ml-5 text-lg font-bold">Managemen</span>
+         <span class="ml-4 text-[#9e9fa3] block">2 Kelas</span>
+        </div>
+     </button>
+     <button type="button" style="box-shadow: 0 8px 10px -5px rgb(0 0 0 / 0.25);" class=" py-[20px]  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+        <img src="assets/icon-pencil-ruler.svg" alt="">
+        <div class="flex-col">
+           <span class="ml-5 text-lg font-bold">Seni Budaya</span>
+         <span class="ml-4 text-[#9e9fa3] block">2 Kelas</span>
+        </div>
+     </button>
+     <button type="button" style="box-shadow: 0 8px 10px -5px rgb(0 0 0 / 0.25);" class=" py-[20px]  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+        <img src="assets/icon-briefcase.svg" alt="">
+        <div class="flex-col">
+           <span class="ml-5 text-lg font-bold">Bisnis</span>
+         <span class="ml-4 text-[#9e9fa3] block">2 Kelas</span>
+        </div>
+     </button>
+     <button type="button" style="box-shadow: 0 8px 10px -5px rgb(0 0 0 / 0.25);" class=" py-[20px]  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+        <img src="assets/icon-science.svg" alt="">
+        <div class="flex-col">
+           <span class="ml-5 text-lg font-bold">Astrologi</span>
+         <span class="ml-4 text-[#9e9fa3] block">2 Kelas</span>
+        </div>
+     </button>
+     <button type="button" style="box-shadow: 0 8px 10px -5px rgb(0 0 0 / 0.25);" class=" py-[20px]  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+        <img src="assets/icon-rocket.png" alt="">
+        <div class="flex-col">
+           <span class="ml-5 text-lg font-bold">SEO</span>
+         <span class="ml-4 text-[#9e9fa3] block">2 Kelas</span>
+        </div>
+     </button>
+     <button type="button" style="box-shadow: 0 8px 10px -5px rgb(0 0 0 / 0.25);" class=" py-[20px]  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+        <img src="assets/icon-space.svg" alt="">
+        <div class="flex-col">
+           <span class="ml-5 text-lg font-bold">Kosmologi</span>
+         <span class="ml-4 text-[#9e9fa3] block">2 Kelas</span>
+        </div>
+     </button>
+     <button type="button" style="box-shadow: 0 8px 10px -5px rgb(0 0 0 / 0.25);" class=" py-[20px]  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+        <img src="assets/icon-microscope.svg" alt="">
+        <div class="flex-col">
+           <span class="ml-5 text-lg font-bold">Biologi</span>
+         <span class="ml-4 text-[#9e9fa3] block">2 Kelas</span>
+        </div>
+     </button>
+</div>
+  </div>
+  <div class="mx-auto w-[80%] mt-[50px] flex items-center justify-center">
+    <div class="mx-auto font-bold text-[#3a10e5] flex items-center">
+        <span>Explore All Courses</span>&nbsp;
+        <img src="assets/icon-double-next.svg" alt="">
+    </div>
+</div>
+
+<br><br><br><br>
+
+<div class=" mx-auto w-[60%]">
+    <section class="bg-[#f0f3ff] dark:bg-[#f0f3ff]">
+        <div class="grid max-w-screen-xl px-10 py-10 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="md:hidden lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="assets/business-image.png" alt="mockup">
+            </div>
+            <div class="mr-auto place-self-center lg:col-span-7 ">
+                <h1 class="max-w-2xl mb-4 text-5xl font-extrabold tracking-tight leading-none  dark:text-black">Tingkatkan Skill Tim Anda.</h1>
+                <p class="max-w-2xl mb-6 font-light text-[#9e9fa3] lg:mb-8 md:text-lg lg:text-xl dark:text-[#9e9fa3]">Berikan tim Anda pengetahuan, pengalaman, dan keyakinan yang mereka butuhkan untuk mengatasi setiap masalah. Kami ingin menciptakan dunia di mana siapa pun dapat membangun sesuatu yang bermakna.
+                    </p>
+                <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded bg-[#3a10e5] hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                    Try For Business
+                    
+                </a>
+               
+            </div>
+                         
+        </div>
+    </section>
+</div>
+<div class="mx-auto w-[80%] mt-[140px] flex items-center justify-center">
+    <div class="mx-auto text-4xl font-bold">Event <span class="underline decoration-[#fdd5a1]">Sedang Berlangsung</span>Didekatmu</div>
+</div>
+<br><br><br>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-7 mx-auto w-[60%]">
+    
+        <div class="max-w-sm bg-white relative">
+            <a href="#">
+                <img class="" src="assets/event-1.png" alt="" />
+            </a>
+            <div class="p-5">
+                <div class="">
+                <div class="float-left">
+                    <span style="display: block;" class="text-[#3a10e5] text-xl font-bold">23</span>
+                    <span style="display: block;" class="text-sm text-[#9e9fa3]">March</span>
+                </div> 
+                <div>
+                    <span class="flex"><span style="display: inline;" class="text-5xl ml-1 text-[#9e9fa3] font-light">|</span>
+                     <div class="my-auto ml-2">
+                        <img style="display: inline;" src="assets/icon-location.svg" alt="">
+                        <span style="display: inline;" class="text-[#9e9fa3] mb-1">North Caroline United States</span>
+                    </span>
+                     </div>
+                </div>
+            </div><br>
+                <a href="#"  style="display: block;">
+                    <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Linear Regression in Python: Introduction to Simple Linear</h5>
+                </a>
+            </div>
+    </div>
+    <div class="max-w-sm bg-white relative">
+        <a href="#">
+            <img class="" src="assets/event-2.png" alt="" />
+        </a>
+        <div class="p-5">
+            <div class="">
+            <div class="float-left">
+                <span style="display: block;" class="text-[#3a10e5] text-xl font-bold">23</span>
+                <span style="display: block;" class="text-sm text-[#9e9fa3]">March</span>
+            </div> 
+            <div>
+                <span class="flex"><span style="display: inline;" class="text-5xl ml-1 text-[#9e9fa3] font-light">|</span>
+                 <div class="my-auto ml-2">
+                    <img style="display: inline;" src="assets/icon-location.svg" alt="">
+                    <span style="display: inline;" class="text-[#9e9fa3] mb-1">North Caroline United States</span>
+                </span>
+                 </div>
+            </div>
+        </div><br>
+            <a href="#"  style="display: block;">
+                <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Linear Regression in Python: Introduction to Simple Linear</h5>
+            </a>
+        </div>
+</div>
+<div class="max-w-sm bg-white relative">
+    <a href="#">
+        <img class="" src="assets/event-3.png" alt="" />
+    </a>
+    <div class="p-5">
+        <div class="">
+        <div class="float-left">
+            <span style="display: block;" class="text-[#3a10e5] text-xl font-bold">23</span>
+            <span style="display: block;" class="text-sm text-[#9e9fa3]">March</span>
+        </div> 
+        <div>
+            <span class="flex"><span style="display: inline;" class="text-5xl ml-1 text-[#9e9fa3] font-light">|</span>
+             <div class="my-auto ml-2">
+                <img style="display: inline;" src="assets/icon-location.svg" alt="">
+                <span style="display: inline;" class="text-[#9e9fa3] mb-1">North Caroline United States</span>
+            </span>
+             </div>
+        </div>
+    </div><br>
+        <a href="#"  style="display: block;">
+            <h5 class="mb-2 text-lg font-bold tracking-tight text-black">Linear Regression in Python: Introduction to Simple Linear</h5>
+        </a>
+    </div>
+</div>
+</div>
+<!--  -->
+
+<br><br><br>
+
+
+<footer class="bg-white dark:bg-gray-900">
+    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0">
+              <a href="" class="flex items-center">
+                  <img src="assets/logo-ligasmk-white.png" class="h-8 me-3" alt="FlowBite Logo" />
+              </a>
+              <p class="text-gray-500 dark:text-gray-400 font-medium w-[200px] mt-4">
+                Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital.
+              </p>
+              <span class="text-gray-500 dark:text-gray-400 font-medium w-[200px] mt-4 flex items-center justify-between">
+                <img src="assets/icon-facebook-white.svg" alt="">
+                <img src="assets/icon-twitter-white.svg" alt="">
+                <img src="assets/icon-linkedin-white.svg" alt="">
+                <img src="assets/icon-youtube-white.svg" alt="">
+            </span>
+            >
+
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="" class="hover:underline">Build Career</a>
+                      </li>
+                      <li>
+                          <a href="" class="hover:underline">Explore Subject</a>
+                      </li>
+                      <li>
+                        <a href="" class="hover:underline">Gain A Skill</a>
+                    </li>
+                  </ul>
+              </div>
+              <div>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Support</h2>
+                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Web Development</a>
+                      </li>
+                      <li>
+                          <a href="#" class="hover:underline">Data Science</a>
+                      </li>
+                      <li>
+                        <a href="#" class="hover:underline">Machine Learning</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Developer Tool</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Web Design</a>
+                    </li>
+                  </ul>
+              </div>
+              <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download Now</h2>
+                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                    <li class="mb-4">
+                        <button type="button" class="text-white bg-white rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 "><img src="assets/logo-appstore.png" alt=""></button>
+                    </li>
+                    <li>
+                        <button type="button" class="text-white bg-white rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 "><img src="assets/logo-googleplay.png" alt=""></button>
+                    </li>
+                </ul>
+            </div>
+          </div>
+      </div>
+
+
+
+
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <div class="sm:flex sm:items-center sm:justify-between">
+       <div class="">   <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Site Map &nbsp;
+    </span>
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Privacy Policy &nbsp;
+    </span>
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Terms & Condition &nbsp;
+    </span>
+    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Contact Us &nbsp;
+  </span>
+  <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">Forums &nbsp;
+  </span></div>
+          <div class="flex mt-4 sm:justify-center sm:mt-0">
+              <a href="#" class="text-white hover:text-gray-900 dark:hover:text-white">
+                  Liga SMK 2023
+              </a>
+          </div>
+      </div>
+    </div>
+</footer>
+
+</body>
+</html>
